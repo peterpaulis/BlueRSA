@@ -8,6 +8,7 @@ s.author     = "IBM"
 s.module_name  = 'CryptorRSA'
 
 s.requires_arc = true
+s.ios.deployment_target = "10.0"
 s.osx.deployment_target = "10.12"
 s.source   = { :git => "https://github.com/IBM-Swift/BlueRSA.git", :tag => s.version }
 s.source_files = "Sources/CryptorRSA/*.swift"
